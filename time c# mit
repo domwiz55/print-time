@@ -1,0 +1,9 @@
+using System;
+
+/// <summary>
+/// This function prints the current time.
+/// </summary>
+public void PrintTime()
+{
+    Console.WriteLine(DateTime.Now.ToString("h:mm tt"));
+}
